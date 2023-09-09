@@ -1,0 +1,151 @@
+*{
+   margin: 0;
+   padding: 0;
+   background-color: black;
+   color: antiquewhite;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+nav{
+
+    display: flex;
+    width: 80%;
+    margin: 30px auto;   
+    justify-content: space-between;
+}
+
+.list i{
+    font-size: 2rem;
+}
+
+
+.left,.right{
+    display: flex;
+    align-items: center;
+}
+
+.delivery,.pickup
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-transform: uppercase;
+}
+
+.delivery{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.right{
+       
+}
+
+.left{
+   gap: 1rem;
+}
+
+.bucket{
+    position: relative;
+}
+
+.quantity{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn_login{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem;
+    width: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+}
+
+.deals_wallpapers{
+    background-image: url('https://www.kfcpakistan.com/images/dca91780-3c0b-11ee-9f68-db691b5759ab-Midnightdeal-3-WEB_desktop_image-2023-08-16080653.jpg');
+    height: 70vh;
+    background-size: cover;   
+}
+
+.reorder{
+    width: 70%;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    background-color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    transition: all 0.8s;
+}
+
+.card img{
+    width: 150px;
+}
+
+.items h6{
+    font-size: 1rem;
+}
+
+.explore_menu{
+    text-transform: uppercase;
+    width: 70%;
+    margin: auto;
+    transition: all 3s;
+}
+
+.explore_menu hr{
+    width: 8%;
+    background-color: red;
+    height: 3px;
+    border: none;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1816;
+    border-radius: 50% 50% 2% 50%;
+    padding: 2rem;
+    position: relative;
+}
+
+.dot{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 20px;
+}
+
+.card:hover{
+    transform: translateY(-30px);
+}
